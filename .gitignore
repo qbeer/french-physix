@@ -1,0 +1,8 @@
+# ignore aux and log file
+*.log
+*.aux
+# ignore toc file
+*.toc
+# ignore pictures - the pdf is included anyways
+*.png
+*.jpg
