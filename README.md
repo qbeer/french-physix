@@ -1,4 +1,4 @@
-## Devoirs de le méchanique quantique 2017
+## Devoirs du méchanique quantique 2017
 
 ---
 
