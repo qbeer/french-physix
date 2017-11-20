@@ -6,3 +6,4 @@
 # ignore pictures - the pdf is included anyways
 *.png
 *.jpg
+*.synctex.gz
