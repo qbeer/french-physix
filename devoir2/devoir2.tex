@@ -1,0 +1,73 @@
+\documentclass[12pt, a4paper]{article}
+\usepackage[french]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{float}
+\usepackage{enumitem}
+
+\author{}
+\title{Deuxième devoir de la mécanique quantique}
+\date{\today}
+\begin{document}
+\maketitle
+\section{Exercise}
+\par La potantielle est donnée comme:
+\begin{equation*}
+V(x) := \begin{cases}
+	0 & \text{0 < $x$ < $a$} \\
+	\infty & \text{autrement} \\
+\end{cases}
+\end{equation*}
+il y a une particule dans l'état
+\begin{equation*}
+\Psi(x,0) = A\cdot[\Psi_{1}(x) + \Psi_{2}(x)]
+\end{equation*}
+où $\Psi_{1}$ et $\Psi_{2}$ font partie de la série suivante:
+\begin{equation*}
+\Psi_{n}(x) = \sqrt{\frac{2}{a}}\sin({\frac{n\pi}{a}x})
+\end{equation*}
+\begin{enumerate}[label=\alph*)]
+\item Normalisez l'état au temps t = 0! Que est le paramètre A?
+\item Calculez le temps développement de la fonctionne $\Psi(x,0)$ et la formule $|\Psi(x,t)^{2}|$! ( Aide: utilisez la formule d'Euler à
+résoudre: $e^{i\varphi} = cos(\varphi) + isin(\varphi)$ et choissisez le paramètre $\omega = \frac{\pi h}{4ma^{2}}$ )
+\item Quelle est la valeur prévue de l'operateur $\hat{x}$? Quelle est la fréquence de son oscillation et l'amplitude? ( Ce peut pas être plus que
+$\frac{a}{2}$ )
+\item Quelle est la valeur prévue de l'operateur $\hat{p}$? ( Il y a une solution facile sans trop de calculation. )
+\item Quelle est la valeur prévue d'energie? $\hat{H}$, utilisez $E_{1}$ et $E_{2}$ dans la solution. Les energies sont celles qui correspondent
+aux fontions $\Psi_{1}$ et $\Psi_{2}$.
+\end{enumerate}
+\section{Exercise}
+\par Une particule de masse $m$ est dans c'état
+\begin{equation*}
+\Psi(x,t) = Ae^{-a[\frac{mx^{2}}{\hbar} + it]}
+\end{equation*}
+où A et a sont des constantes positives. Obtenez la valeur de A! Quelle est la potentielle avec qui la fonctionne $\Psi(x,t)$ résoude l'équation
+Schrödinger dans le cas unidimensionnelle? La variance d'un opérateur est défini comme:
+\begin{equation*}
+\sigma_{A} := \sqrt{<A^{2}> - <A>^{2}}
+\end{equation*}
+Présentez que la solution remplis la relation Heisenberg:
+\begin{equation*}
+\sigma_{\hat{x}}\sigma_{\hat{p}} \geq \frac{\hbar}{2}
+\end{equation*}
+\section{Exercise}
+\par Une particule de masse $m$ viens de $+\infty$ dans la potentielle
+\begin{equation*}
+V(x) := \begin{cases}
+	0 & \text{0 $\leq$ $x$} \\
+	-V_{0} & \text{ $x$ $<$ $0$ } \\
+\end{cases}
+\end{equation*}
+La particule disperse sur la potentielle donc $E > 0$ et $V_{0} > 0$. Quelle est la probabilité de transmission et de reflection? Obtenez les valuers
+du coefficient de transmission (T) et celle de reflection (R)!
+\section{Exercise}
+\par Obtenez le spectre de le perticule dans la potentielle suivante
+\begin{equation*}
+V(x) := \begin{cases}
+	V_{0} & n(a+b) < x < n(a+b) + a \\
+	0 & \text{autrement}  \\
+\end{cases}
+\end{equation*}
+$n \in Z$. (Aide: il y a une invariance de translation dans la potentielle donc les probabilités sont invariantes de celle)
+\end{document}
