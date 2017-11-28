@@ -1,0 +1,57 @@
+\documentclass[12pt, a4paper]{article}
+\usepackage[french]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{float}
+\usepackage{enumitem}
+\usepackage{physics}
+
+\author{}
+\title{Troisième devoir de la mécanique quantique}
+\date{\today}
+\begin{document}
+\maketitle
+\section{Exercice}
+\par Obtenez les niveaux d'énergie:
+\begin{equation*}
+V(x) := \begin{cases}
+	+\infty & \text{0 < $x$} \\
+	\frac{1}{2}m\omega^{2}x^{2} & \text{ $x \geq 0$} \\
+\end{cases}
+\end{equation*}
+dans la vallée de la potentielle.
+\begin{equation*}
+\section{Exercice}
+Le $CO_{2}$ est une molécule linéaire qui peut devenir un ion négatif avec l'absorption d'un électron. Pour le modèle de cette molécule
+il faut assumer que l'énergie du électron sans interaction soit $E_{O}$ si on le mettre sur un des atoms oxigens et elle soit $E_{C}$ si on
+le mettre sur le carbon. Les états d'électron sont $\ket{D}$ (dans l'oxygène dans le droit) $\ket{M}$ (dans le carbon au milieu) et finalement $\ket{G}$
+(dans l'oxygène à gauche). Quand même les propres énergies du system sont differents de $E_{C}, E_{O}$ en raison d'effet tunnel, pour ça 
+il faut que on utillise une correction $\Delta$. Donc le Hamilton opérateur du system
+
+ est le suivante:
+\begin{equation*}
+\hat{H} = 
+\begin{pmatrix}
+E_{O} & \Delta & 0 \\
+\Delta & E_{C} & \Delta \\
+0 & \Delta & E_{O}
+\end{pmatrix}
+\end{equation*}
+\begin{enumerate}[label=\alph*)]
+\item Quelles sont les propres énergies du system?
+\item Obtenez les vecteurs propres du system. Pour ça, il faut assumer que $E_{O} = E_{C}$. 
+\end{enumerate}
+\section{Exercice}
+\par Le Hamilton operateur est $\hat{H} = \frac{\hat{L}^{2}_{z}}{2\Theta}$. L'état est (t = 0):
+\begin{equation*}
+\psi(\varphi, t = 0) = A cos^{2}\varphi
+\end{equation*}
+Il faut normaliser la fonctionne et résoudre la value de A pour t > 0.
+\section{Exercice}
+\par La fonctionne qui corresponde á un état
+\begin{equation*}
+\psi(x,y,z) = \frac{2(x^{2} - y^{2})}{f(x^{2}+y^{2}+z^{2})}
+\end{equation*}
+\par Dans quelle valeur propre on peut trouver l'électron et qulle et la probabilité qui y corresponde?
+\end{document}
